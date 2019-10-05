@@ -1,0 +1,31 @@
+$primary-color: #444;
+$secondary-color: #0ebaac;
+$show-home-image: true;
+$home-image: url(https://user-images.githubusercontent.com/39657549/66259546-daa9b880-e7ba-11e9-833c-d000961696e8.jpeg);
+
+$background-opacity: 0.9;
+
+@mixin easeOut {
+  transition: all 0.5s ease-out;
+}
+
+@mixin background {
+  @if $show-home-image {
+    &#bg-img {
+      background-image: $home-image;
+      background-color: #0cf; /* Used if the image is unavailable */
+      background-attachment: fixed;
+      background-size: cover;
+      &:after {
+        content: '';
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        background: rgba($primary-color, $background-opacity);
+      }
+    }
+  }
+}
