@@ -1,4 +1,4 @@
-$primary-color: #222;
+$primary-color: #444;
 $secondary-color: #0ebaac;
 $show-home-image: true;
 $home-image: url(https://user-images.githubusercontent.com/39657549/66259546-daa9b880-e7ba-11e9-833c-d000961696e8.jpeg);
@@ -35,7 +35,26 @@ $background-opacity: 0.9;
   }
 }
 
-// media query mixins
+// FUNCTIONS..
+// text color based on bg
+@function set-text-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+@function set-hamburger-color($color) {
+  @if (lightness($color) > 40) {
+    @return #000;
+  } @else {
+    @return #fff;
+  }
+}
+
+// MIXINS..
+// media queries
 @mixin mediaSm {
   @media screen and (max-width: 500px) {
     @content;
