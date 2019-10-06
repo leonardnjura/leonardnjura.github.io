@@ -2,8 +2,12 @@ $primary-color: #222;
 $secondary-color: #0ebaac;
 $show-home-image: true;
 $home-image: url(https://user-images.githubusercontent.com/39657549/66259546-daa9b880-e7ba-11e9-833c-d000961696e8.jpeg);
-$me: url(https://user-images.githubusercontent.com/39657549/66259592-602d6880-e7bb-11e9-95b5-cf261fd5e28e.jpeg);
-$me-bw: url(https://user-images.githubusercontent.com/39657549/66262867-8c63dc00-e7f1-11e9-8ef9-228dbb79f9dc.jpg);
+$home-image-bw: url(https://user-images.githubusercontent.com/39657549/66263880-e6b96880-e802-11e9-874d-b2df2ccd3406.jpg);
+$leo: url(https://user-images.githubusercontent.com/39657549/66259592-602d6880-e7bb-11e9-95b5-cf261fd5e28e.jpeg);
+$leo-bw: url(https://user-images.githubusercontent.com/39657549/66262867-8c63dc00-e7f1-11e9-8ef9-228dbb79f9dc.jpg);
+$leo-sm: url(https://user-images.githubusercontent.com/39657549/66263708-ebc8e880-e7ff-11e9-9fc7-ca1cf920a6fa.jpg);
+$leo-sm-bw: url(https://user-images.githubusercontent.com/39657549/66263707-ebc8e880-e7ff-11e9-84c3-a2c941d7b8ab.png);
+
 $background-opacity: 0.9;
 
 @mixin easeOut {
@@ -28,5 +32,30 @@ $background-opacity: 0.9;
         background: rgba($primary-color, $background-opacity);
       }
     }
+  }
+}
+
+// media query mixins
+@mixin mediaSm {
+  @media screen and (max-width: 500px) {
+    @content;
+  }
+}
+
+@mixin mediaMd {
+  @media screen and (max-width: 768px) {
+    @content;
+  }
+}
+
+@mixin mediaLg {
+  @media screen and (min-width: 769px) and (max-width: 1170px) {
+    @content;
+  }
+}
+
+@mixin mediaXl {
+  @media screen and (min-width: 1171px) {
+    @content;
   }
 }
