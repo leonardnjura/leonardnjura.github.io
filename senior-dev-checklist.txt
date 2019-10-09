@@ -1,0 +1,31 @@
+Select all the following that apply: *
+Don't worry about how many boxes you check here! Everyone has different skills, and we'd like to talk about your current strengths as well as areas we might be able to help you improve.
+FE
+  I have used functional programming techniques in JavaScript like partial application and currying in a production app.
+  I have used Flow or TypeScript for static typing in a production app.
+  I have worked with a11y standards like ARIA prefixes in a production app.
+  I have written unit tests for a production JavaScript app, using tools like Jest, Jasmine, Tape, or Ava.
+  I have written end to end tests for a production app, using Selenium, Cypress, Protractor, or similar tools.
+  I have built a production React app.
+  I have built a production React app with more than 100,000 users.
+  I have created higher order components or components with render callbacks or used the React context API in a production app.
+  I have optimized a production app using shouldComponentUpdate or PureComponent.
+  I have built a production app that uses React server-side rendering with a framework like Next.js.
+  I have used a CSS-in-JS solution like Styled Components or Emotion in a production app.
+  I have configured webpack or other bundlers for a production app.
+  I have optimized build sizes for a production app, using techniques like minification, tree-shaking, or splitting routes into async bundles.
+  I have done performance profiling for a production app, using tools like Lighthouse.
+  I have audited a production app for frontend exploits and resolved problems like XSS.
+  I have used a browser debugger using breakpoints, etc.
+  I have used a state management solution like Redux, MobX, or Apollo in a production app.
+  I have created Redux or Apollo middleware for a production app.
+  I have used IndexedDB or service workers in a production app.
+  I have built a production app using GraphQL.
+  I have created a shared component library used by multiple projects and showcased by a style guide app like Storybook or Styleguidist.
+  I have introduced an important piece of technology like Redux or GraphQL or a developer tool like ESLint or Prettier to my team and implemented it in a large project.
+  I have presented a technical talk at a conference, published a technical article or blog post, or participated in a standards committee.
+  I have created or significantly contributed to an open source JavaScript library used by other developers.
+  I have created a Zap.
+BE  
+If yes, append/ammend
+https://docs.google.com/document/d/1Odg2yVJnwTTwv5HMiwXWswkHV9rRFmkhvfLMn5ZZWsw/edit?usp=sharing
